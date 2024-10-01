@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: #E9EDF2;">
+
+  <div class="container-fluid p-5">
+
+    <form>
+      <div class="row gap-2 d-flex justify-content-center flex-column;">
+
+        <div class="col-lg p-3 bg-white" style="border-radius: 22px;">
+          <h4 class="text-primary">Basic Details</h4>
+          <label class="upload d-flex flex-column align-items-center" for="upload"
+            style="border:dashed 1px ; border-radius: 2px; padding: 40px; border-color: #B2BAD0; ">
+
+
+            <i class="fa-solid fa-upload" style="color: #4318FF;"></i>
+            <h5>Upload Image</h5>
+            <input type="file" id="upload" hidden>
+            <h6 style="color: #8F9BBA; align-items: center; font-size: 11px; font-weight: 500;">PNG, JPG
+              files are allowed</h6>
+          </label>
+
+
+
+
+
+          <div class="row d-flex flex-md-nowrap " style="padding: 10px;">
+            <div class="col-md-3 p-1">
+              <label for="inputSalutation" class="form-label">Salutation</label>
+              <select id="inputSalutation" class="form-select">
+                <option selected>select</option>
+                <option></option>
+              </select>
+            </div>
+
+            <div class="col-md-4 p-1">
+              <label for="inputname" class="form-label">First name</label>
+              <input type="text" class="form-control" id="inputname" placeholder="john">
+
+            </div>
+
+            <div class="col-md-5 p-1">
+              <label for="inputlastname" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="inputlastname" placeholder="doe">
+            </div>
+          </div>
+
+
+
+
+          <div class="row d-flex flex-md-nowrap " style="padding: 10px;">
+            <div class="col-md-6 p-1">
+              <label for="exampleFormControlInput1" class="form-label">Email Address</label>
+              <input type="emailaddress" class="form-control" id="inputmail@simmmple.com" placeholder="mail@simmmple.com" style="color: #949DB9;">
+            </div>
+            <div class="col-md-6 p-1">
+              <label for="inputmobilenumber" class="form-label">Mobile Number</label>
+              <input type="mobilenumber" class="form-control" id="inputmobilenumber" placeholder="Enter the mobile number">
+            </div>
+          </div>
+
+
+
+          <div class="row d-flex flex-md-nowrap align-items-center " style="padding: 10px;">
+            <div class="col-md-6 p-1">
+              <label for="exampleFormControlInput1" class="form-label">Date Of Birth</label>
+              <input type="date" class="form-control" id="select date of birth" placeholder="select date of birth">
+
+            </div>
+            <div class="col-md-6 p-1">
+              <h6 style="color: #2B3674; font-weight: 500; font-size: 14px;">Gender</h6>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadiomale"
+                  value="optionmale">
+                <label class="form-check-label" for="inlineRadiomale">Male</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadiofemale"
+                  value="optionfemale">
+                <label class="form-check-label" for="inlineRadiofemale">Female</label>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="row d-flex flex-md-nowrap " style="padding: 10px;">
+
+            <div class="col-12 p-1">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="enter address">
+            </div>
+
+          </div>
+
+          <div class="row d-flex flex-md-nowrap " style="padding: 10px;">
+            <div class="col-md-6 p-1">
+              <label for="inputcountry" class="form-label">Country</label>
+              <select id="inputcountry" class="form-select">
+                <option selected style="color: #949DB9;">select country</option>
+                <option>...</option>
+              </select>
+            </div>
+
+            <div class="col-md-6 p-1">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected>select state</option>
+                <option>...</option>
+              </select>
+            </div>
+          </div>
+
+
+
+
+          <div class="row d-flex flex-md-nowrap " style="padding: 10px;">
+            <div class="col-md-6 p-1">
+              <label for="inputcity" class="form-label">City</label>
+              <input type="text" class="form-control" id="enter city" placeholder="enter city">
+            </div>
+
+            <div class="col-md-6 p-1">
+              <label for="exampleFormControlInput1" class="form-label">Pin/Zip</label>
+              <input type="pin/zip" class="form-control" id="enter pin/zip" placeholder="enter pin/zip">
+            </div>
+
+
+          </div>
+
+        </div>
+        <!--advanced detils-->
+
+        <div class="col-lg p-3 bg-white" style="border-radius: 22px;">
+          <h4 class="text-primary">Advanced Details</h4>
+
+
+
+          <div class="row d-flex flex-md-nowrap" style="padding: 10px;">
+            <div class="alert alert-warning" role="alert" style="font-size: 16px; font-weight: 500;">
+              Sample warning messages - alert
+              <p style="font-size: 14px; font-weight: 400;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vivamus sed fermentum felis. Aliquam erat volutpat. Donec faucibus mauris vel nibh sodales feugiat.
+                Donec suscipit felis vitae orci porttitor congue.</p>
+            </div>
+          </div>
+
+
+
+
+
+          <div class="row d-flex " style="padding: 10px; align-items: end; gap: 10px;">
+            <div class="col-md p-1">
+
+              <label for="customRange1" class="form-label">Height</label>
+              <input type="range" class="form-range" id="customRange1" style="color: #E6E8EB;">
+            </div>
+
+            <div class="col-2 p-1">
+              <input type="text" class="form-control" id="inputAddress" placeholder="160 cm"
+                style="border-color: #B6BBC7; border-radius: 16px; height: 50px;width: 92px; font-size: 15px; font-weight: 700;">
+
+            </div>
+
+            <div class="col-md p-1">
+
+              <label for="customRange1" class="form-label">Weight</label>
+              <input type="range" class="form-range" id="customRange1" style="color:  #E6E8EB;">
+            </div>
+
+            <div class="col-2 p-1">
+              <input type="text" class="form-control" id="inputAddress" placeholder="68 kg"
+                style="border-color:  #B6BBC7; border-radius: 16px; height: 50px; width: 92px; font-size: 15px; font-weight: 700;">
+
+            </div>
+          </div>
+
+
+
+
+          <div class="row d-flex align-items-center" style="padding: 10px;">
+
+
+            <div class="col-xl-5 p-1" style="flex-direction: column;">
+              <label for="exampleFormControlInput1" class="form-label"> Choose Color</label>
+
+
+              <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563D7C"
+                title="Choose your color" style="width: 100%;">
+            </div>
+
+
+            <div class="col-xl-7 p-1" style="flex-direction: column; display: flex;">
+
+              <label for="exampleFormControlInput1" class="form-label">Choose Template</label>
+              <div class="d-flex flex-wrap gap-4">
+              <div class="d-flex" style="gap: 10px;">
+                <input class="form-check-input" type="checkbox" id="inlineCheckboxa" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1"
+                  style="color: #2B3674; font-size: 14px; font-weight: 400;">Template1</label>
+                </div>
+
+
+
+                <div class="d-flex" style="gap: 10px;">
+                <input class="form-check-input" type="checkbox" id="inlineCheckboxa" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2"
+                  style="color: #2B3674;font-size: 14px; font-weight: 400;">Template2</label>
+                 </div>
+
+
+
+                  <div class="d-flex" style="gap: 10px;">
+                <input class="form-check-input" type="checkbox" id="inlineCheckboxa" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2"
+                  style="color: #2B3674; font-size: 14px; font-weight: 400;">Template3</label>
+             </div>
+
+            </div>
+          </div>
+
+
+
+
+          <div class="col-12 p-1">
+            <label for="inputqualification" class="label"
+              style="color: #2B3674; font-size: 14px; font-weight: 500;">Qualification</label>
+            <input type="text" class="form-control" id="inputqualification" placeholder="enter qualification">
+          </div>
+
+
+          <div class="col-12 p-1" style="width: 100%;">
+            <label for="exampleFormControlTextarea1" class="form-label">About Yourself</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"
+              placeholder="enter here...."></textarea>
+          </div>
+
+
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexI Accept Terms & Conditions " style="color: #2B3674;">
+            <label class="form-check-label" for="flexI Accept Terms & Conditions"
+              style="color:#2B3674; font-size: 14px; font-weight: 400;">
+              I Accept Terms & Conditions
+            </label>
+          </div>
+
+
+
+        </div>
+
+
+      </div>
+      </div>
+
+      <div class="row  d-flex justify-content-center mt-4" >
+
+        <div class="col-lg   " style="background-color: white; border-radius: 22px;">
+          <div class="bg-white footer col gap-5 card-radius">
+            <div class="align-items-center py-2 d-flex justify-content-end gap-2">
+              <button class="button transparent -btn p-3" style="background-color: transparent; border-color: transparent1px solid; color: #2B3674; font-size: 10px; font-weight: 500; border: none; border-radius: 16px; background-color: #FAF9FF;"> Cancel</button>
+              <button type="button" class="btn-btn-primary p-3" style="background-color: #4318FF; border-radius: 16px;border-color:transparent 1pxsolid; color: white; font-size: 10px; font-weight: 500; border:1px solid;"> Save Changes</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+</form>
+  </div>
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <script src="/js/bootstrap.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
