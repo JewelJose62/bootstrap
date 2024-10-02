@@ -1,9 +1,12 @@
-.selector-for-some-widget {
-    box-sizing: content-box;
+* {
+    box-sizing: border-box;
     font-size: Dm Sans;
+    /* margin: 0%; */
   }
+
   body{
     background: #E9EDF2;
+    
 
   }
  .form-label::after {
@@ -22,6 +25,7 @@ label i{
   font-size: 24px;
 
 }
+
 .range{
   width: 70px;
   padding: 5px;
@@ -47,10 +51,13 @@ input[type=range]::-webkit-slider-thumb {
   background: #4318FF;
 }
 
-.form-control .placeholder{
+.form-control::placeholder{
   color: #949DB9;
 }
 
+.form-select{
+  color: #949DB9;
+}
 h5{
   color: #4318FF !important;
   font-size: 16px;
