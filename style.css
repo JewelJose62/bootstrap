@@ -77,6 +77,15 @@ h5{
   align-items: center;
   display: flex;
 }
+.gitalert-warning{
+  font-size: 12px;
+  font-weight: 700;
+}
+
+p{
+  font-size: 13px;
+  font-weight: 400;
+}
 
 .placeholder{
   color: #949DB9;
