@@ -13,6 +13,9 @@
     content: " * ";
     color: red;
   }
+  .star{
+    color: red;
+  }
 
   .form-label{
     color: #2B3674;
@@ -39,9 +42,9 @@ label i{
 .text-primary {
   color: #2B3674 !important;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 600;
 }
-input[type=range] {
+input[type=range]{
   -webkit-appearance: none;
 }
 input[type=range]::-webkit-slider-thumb {
@@ -51,6 +54,10 @@ input[type=range]::-webkit-slider-thumb {
   background: #4318FF;
 }
 
+.form-check-label{
+  color: #2B3674;
+}
+
 .form-control::placeholder{
   color: #949DB9;
 }
@@ -58,6 +65,11 @@ input[type=range]::-webkit-slider-thumb {
 .form-select{
   color: #949DB9;
 }
+
+option{
+  color: black;
+}
+
 h5{
   color: #4318FF !important;
   font-size: 16px;
