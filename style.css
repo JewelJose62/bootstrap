@@ -77,7 +77,7 @@ h5{
   align-items: center;
   display: flex;
 }
-.gitalert-warning{
+.alert-warning{
   font-size: 12px;
   font-weight: 700;
 }
